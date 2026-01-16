@@ -1,5 +1,6 @@
 {
   "token": "",
   "password": "",
-  "guildId": ""
+  "guildId": "",
+  "webhook": ""
 }
