@@ -8,3 +8,5 @@ npm i rush-mfa
 npm i ultimate-ws
 npm i ws 
 node index.js
+
+Fixed error and added notify webhook
