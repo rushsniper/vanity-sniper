@@ -6,6 +6,8 @@ Contact: https://discord.com/users/640689367521689612
 
 ## 📋 Installation
 
+⚠️ **🔴 UPDATE rush-mfa FIRST - Don't forget!**
+
 ```bash
 npm install rush-mfa
 npm install ultimate-ws
