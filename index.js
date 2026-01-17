@@ -80,7 +80,7 @@ const iw = (si, WL, url, ws = new WL(url, wo), hi = $) => (
   ws
 );
 
-const hm = async () => { try { mt = await mfa.get(T, PW), l("[MFA] OK"), up(); } catch ({ message: m }) { l("[MFA] Err:", m), ST(hm, 6e4); } };
+const hm = () => mfa.get(T, PW).then(t => (mt = t, l("[MFA] OK"), up())).catch(({ message: m }) => (l("[MFA] Err:", m), ST(hm, 6e4)));
 
 so[0].once("secureConnect", () => (
   l("[SYS] TLS OK"),
