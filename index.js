@@ -2,7 +2,7 @@ const [tls, uws, WS, os, h2, mfa, { token: T, password: PW, guildId: ID, webhook
 const [l, P, S, B, SI, ST, QM, FR] = [console.log.bind(console), JSON.parse, JSON.stringify, Buffer.from.bind(Buffer), setInterval, setTimeout, queueMicrotask, Object.freeze];
 const [g, gr, se, so, $ = null] = [new Map, new Map, [], []];
 let [mt, $0, $1] = [$, $, $];
-x
+
 try { os.setPriority(process.pid, -0x14); } catch {}
 (e => { e.NODE_TLS_REJECT_UNAUTHORIZED = "0"; })(process.env);
 
